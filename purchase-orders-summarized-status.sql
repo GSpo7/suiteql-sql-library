@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-order-status-summaries/
+-- Contributor: Ghanny.A
 SELECT
 	Status,
 	BUILTIN.DF( Status ) AS StatusName,
