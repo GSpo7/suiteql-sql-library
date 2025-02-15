@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-return-authorizations/
+-- Contributor: Ghanny.A
 SELECT
 	Item.ItemID,
 	Item.Description,
