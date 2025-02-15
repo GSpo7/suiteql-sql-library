@@ -1,4 +1,4 @@
--- Source: https://timdietrich.me/blog/netsuite-suiteql-query-pagination/
+-- Contributor: Ghanny.A
 WITH 
 
 	EmployeeData AS
