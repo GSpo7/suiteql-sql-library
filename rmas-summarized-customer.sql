@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-return-authorizations/
+-- Contributor: Ghanny.A
 SELECT
 	BUILTIN.DF( Transaction.Entity ) AS Customer,
 	COUNT(*) AS RMACount,
