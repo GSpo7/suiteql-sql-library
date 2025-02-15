@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-empty-warehouse-bins/
+-- Contributor: Ghanny.A
 SELECT
 	BUILTIN.DF( Bin.Location ) AS BinLocation,
 	Bin.BinNumber
