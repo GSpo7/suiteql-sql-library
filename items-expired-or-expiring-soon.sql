@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-serialized-lot-number-expiring-items/
+-- Contributor: Ghanny.A
 SELECT
 	BUILTIN.DF( InventoryNumber.Item ) AS ItemID,
 	InventoryNumber.InventoryNumber,
