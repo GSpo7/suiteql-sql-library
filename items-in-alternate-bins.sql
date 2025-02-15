@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-items-in-alternate-bins/
+-- Contributor: Ghanny.A
 SELECT
 	Item AS ItemD,
 	BUILTIN.DF( Item ) AS ItemName,
