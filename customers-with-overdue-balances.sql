@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-customer-balances/
+-- Contributor: Ghanny.A
 SELECT
 	Customer.ID,	
 	Customer.CompanyName,
