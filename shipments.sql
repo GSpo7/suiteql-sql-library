@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-shipments/
+-- Contributor: Ghanny.A
 SELECT
 	Transaction.ID,
 	Transaction.TranID,
