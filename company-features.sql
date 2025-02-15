@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-company-features/
+-- Contributor: Ghanny.A
 SELECT
 	Name,
 	ID,
