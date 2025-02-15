@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-employees-supervisors-roles-permissions/
+-- Contributor: Ghanny.A-- Contributor: Ghanny.A
 SELECT
 	Employee.ID AS EmployeeID,	
 	Employee.LastName,
