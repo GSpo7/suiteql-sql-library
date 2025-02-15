@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-dynamic-calendar-date-ranges/
+-- Contributor: Ghanny.A
 SELECT
 
 	BUILTIN.RELATIVE_RANGES( 'FHBL', 'START' ) AS FISCAL_HALF_BEFORE_LAST_START,
