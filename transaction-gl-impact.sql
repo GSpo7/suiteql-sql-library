@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-journal-entries-gl-impact/
+-- Contributor: Ghanny.A
 SELECT
 	BUILTIN.DF( TransactionAccountingLine.Account ) AS Account,
 	TransactionAccountingLine.Debit,
