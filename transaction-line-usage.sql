@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-transaction-line-usage/
+-- Contributor: Ghanny.A
 SELECT
 	* 
 FROM 
