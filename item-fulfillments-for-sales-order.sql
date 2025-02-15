@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Item Fulfillments for a given Sales Order.
+-- Contributor: Ghanny.A
 SELECT
 	SalesOrder.ID AS SalesOrder,
 	SalesOrder.TranID As SalesOrderID,
