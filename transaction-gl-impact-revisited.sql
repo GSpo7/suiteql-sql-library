@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-gl-impact/
+-- Contributor: Ghanny.A
 SELECT
 	Transaction.TranID,
 	BUILTIN.DF( TransactionAccountingLine.AccountingBook ) AS AccountingBookName,
