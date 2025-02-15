@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Reference: https://timdietrich.me/blog/netsuite-suiteql-dates-times/
+-- Contributor: Ghanny.A
 SELECT
 	TO_DATE( '2020-01-01', 'YYYY-MM-DD' ) AS AdHocDate,
 	-- Note: Wrapping this in "TO_CHAR" so that you can see that the time portion of the timestamp has been set!
