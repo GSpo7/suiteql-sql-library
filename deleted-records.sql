@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-query-deleted-records/
+-- Contributor: Ghanny.A
 
 SELECT
 	TO_CHAR ( DeletedDate, 'DS TS' ) AS DeletedDate,
