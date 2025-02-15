@@ -1,3 +1,4 @@
+-- Contributor: Ghanny.A
 SELECT
 	AccountingPeriod.ID,
 	AccountingPeriod.PeriodName, 
