@@ -1,4 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
+-- Contributor: Ghanny.A
 SELECT
 	ItemType,
 	COUNT( ID ) AS ItemCount
