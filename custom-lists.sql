@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Source: https://timdietrich.me/blog/netsuite-suiteql-custom-lists/
+-- Contributor: Ghanny.A
 SELECT
 	Name,
 	Description,
