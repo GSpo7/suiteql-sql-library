@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-custom-segments/
+-- Contributor: Ghanny.A
 SELECT
 	CustomSegment.Name AS CustomSegmentName,
 	CustomRecordType.ScriptID AS CustomSegmentTableName,
