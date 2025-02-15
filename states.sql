@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-states-countries/
+-- Contributor: Ghanny.A
 SELECT
 	State.ID,
 	State.ShortName,
