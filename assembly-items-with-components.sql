@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Source: https://timdietrich.me/blog/netsuite-suiteql-assembly-items/
+-- Contributor: Ghanny.A
 SELECT
 	'<a href="/app/common/item/item.nl?id=' || AssemblyItem.ID || '" target="_item_' || AssemblyItem.ID || '">View</a>' AS AssemblyItemLink,
 	AssemblyItem.ID AS AssemblyItemID,
