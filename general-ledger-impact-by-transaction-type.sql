@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-general-ledger-impact-by-transaction-type/
+-- Contributor: Ghanny.A
 SELECT
 	BUILTIN.DF( Transaction.Type ) AS TransactionType,
 	BUILTIN.DF( Account.AcctType ) AS AccountType,
