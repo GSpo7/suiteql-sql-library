@@ -1,1 +1,309 @@
-[{"name":"Account Subsidiary Map","fileName":"account-subsidiary-map.sql","description":"A list of general ledger accounts and the subsidiaries that they are mapped to."},{"name":"Accounting Periods","fileName":"accounting-periods.sql","description":"Basic information about accounting periods."},{"name":"Assembly Item With Components","fileName":"assembly-items-with-components.sql","description":"Returns an Assembly Item and its components."},{"name":"Bins - Empty","fileName":"bins-empty.sql","description":"A list of empty warehouse bins."},{"name":"BUILTIN.RELATIVE_RANGES Examples","fileName":"builtin-relative-ranges.sql","description":"Returns the start and end values for all relative date ranges that the BUILTIN.RELATIVE_RANGES function currently supports."},{"name":"Company Features","fileName":"company-features.sql","description":"A list of NetSuite features that are avaialble and/or enabled in the account."},{"name":"Countries","fileName":"countries.sql","description":"A list of countries that NetSuite supports."},{"name":"Currencies","fileName":"currencies.sql","description":"A list of currencies, with symbols, latest exchange rates, etc."},{"name":"Currency Rates","fileName":"currency-rates.sql","description":"Historical currency exchange rates."},{"name":"Custom Fields","fileName":"custom-fields.sql","description":"Lists all custom fields in the account."},{"name":"Custom Lists","fileName":"custom-lists.sql","description":"Lists all custom lists in the account."},{"name":"Custom Record Types","fileName":"custom-record-types.sql","description":"Lists all custom record types in the account."},{"name":"Custom Segments","fileName":"custom-segments.sql","description":"Lists all custom segments, including the names of the tables in which the segment values are stored."},{"name":"Customer Invoices - By Date Range","fileName":"customer-invoices.sql","description":"Returns all customer (accounts receivable) invoices for a given date range, with totals and statuses."},{"name":"Customers - With Overdue Balances","fileName":"customers-with-overdue-balances.sql","description":"Returns customers that have overdue balances."},{"name":"Dates and Time - Creation Examples","fileName":"date-time-creation-examples.sql","description":"Shows how you can create dates and timestamps based on strings."},{"name":"Dates and Time - Format Models","fileName":"date-format-models.sql","description":"Examples of datetime format elements."},{"name":"Deleted Records","fileName":"deleted-records.sql","description":"Returns information about records that have been deleted."},{"name":"Employees - Emergency Contacts","fileName":"employees-emergency-contacts.sql","description":"Emergency contact information for employees."},{"name":"Employees - Last Logins","fileName":"employees-last-logins.sql","description":"Lists all employees that have NetSuite access, and the date/time that they last logged in."},{"name":"Employees - No Recent Logins","fileName":"employees-no-recent-logins.sql","description":"Employees that have not logged in recently."},{"name":"Employees - Roles and Permissions","fileName":"employees-roles-permissions.sql","description":"Lists all employees, their assigned roles, and the permissions granted."},{"name":"Employees - With Edit, View, Email URLs","fileName":"employees-with-edit-view-email-urls.sql","description":"Lists all employees, with edit, view, and email URLs in the results."},{"name":"Entities - Types","fileName":"entity-types.sql","description":"Lists all entity types, with BUILTIN.DF and BUILTIN.CF values."},{"name":"File Cabinet - Top Level Folders","fileName":"file-cabinet-top-level-folders.sql","description":"Returns a list of folders in the root of the File Cabinet."},{"name":"General Ledger Impact by Transaction Type","fileName":"general-ledger-impact-by-transaction-type.sql","description":"Lists all transaction types and the general ledger accounts that they post to."},{"name":"Hello World","fileName":"hello-world.sql","description":"An obligatory \"Hello World\" query in SuiteQL fashion."},{"name":"Item Fulfillments - for Specified Sales Order","fileName":"item-fulfillments-for-sales-order.sql","description":"Lists all item fulfillments for a specified Sales Order ID."},{"name":"Items - Item Group Members","fileName":"item-group-members.sql","description":"Lists members of an Item Group, including their list prices."},{"name":"Items - In Alternate Warehouse Bins","fileName":"items-in-alternate-bins.sql","description":"Lists items that are in stock and stored in bins that are not the item's primary bin."},{"name":"Items - Inventory Analysis","fileName":"items-inventory-analysis.sql","description":"Designed for inventory analysis, this query returns active items, various quantities (on hand, committed, available, reorder point, preferred stock level), the preferred vendor, the average resale price and purchase cost, quantities sold (in the last 30 days, 90 days, year, and lifetime), and more."},{"name":"Items - Expired or Expiring Soon","fileName":"items-expired-or-expiring-soon.sql","description":"Returns items that have expired, or are about to expire within a certain number of days."},{"name":"Items - Summarized by Type","fileName":"item-type-summary.sql","description":"Lists the number of active items group by item type."},{"name":"Items - With Expiration Dates","fileName":"items-with-expiration-dates.sql","description":"Lists items that have expiration dates."},{"name":"Items - Without Preferred Bins","fileName":"items-without-preferred-bins.sql","description":"Lists items that do not have a preferred bin."},{"name":"Journal Entries - In Date Range","fileName":"journal-entries-in-date-range.sql","description":"Returns journal entry transactions in a given date range."},{"name":"Leads - For A Specific Sales Rep","fileName":"leads-for-salesrep.sql","description":"Provides leads assigned to a specified sales rep."},{"name":"Leads - Summarized by Sales Rep","fileName":"leads-salesrep-summarized.sql","description":"Provides a summarized list of sales reps and the number of leads that they've been assigned."},{"name":"Pagination and Record Count Example","fileName":"pagination-recordcount-example.sql","description":"Returns paginated results that includes the total number of rows found."},{"name":"Purchase Orders - Summarized by Status","fileName":"purchase-orders-summarized-status.sql","description":"Returns the various statuses of purchase orders, with the number of orders in each status, and the total amounts."},{"name":"Purchase Orders - Item Receipts","fileName":"purchase-orders-item-receipts.sql","description":"Returns items that have been received against POs in a given date range."},{"name":"Returns Authorizations - In Date Range","fileName":"rmas-in-date-range.sql","description":"A list of Return Authorizations (RAs / RMAs) that have been issued in a specified date range."},{"name":"Returns Authorizations - Summarized by Customer","fileName":"rmas-summarized-customer.sql","description":"A list of Return Authorizations (RAs / RMAs) that have been issued in a specified date range, summarized by customer."},{"name":"Returns Authorizations - Summarized by Item","fileName":"rmas-summarized-item.sql","description":"A list of Return Authorizations (RAs / RMAs) that have been issued in a specified date range, summarized by item."},{"name":"Roles - Active Roles Not Used Recently","fileName":"roles-active-roles-not-used-recently.sql","description":"Returns the active roles that haven't been used in the past 90 days."},{"name":"Roles - Active Roles And The Date Last Used","fileName":"roles-active-roles-with-date-last-used.sql","description":"Returns all active roles, and includes the date that each role was most recently used."},{"name":"ROLLUP - Oracle Command Example","fileName":"rollup-example.sql","description":"Used to append a summary row to the result set."},{"name":"Sales Order - With Sales Tax","fileName":"sales-order-with-sales-tax.sql","description":"Returns header-level values for a specified Sales Order, including the Tax Total value sourced from the related TransactionLine records."},{"name":"Sales Orders - Summarized by Status","fileName":"sales-orders-summarized-status.sql","description":"Returns the various statuses of sales orders, with the number of orders in each status, and the total amounts."},{"name":"Shipments","fileName":"shipments.sql","description":"Returns all shipments (item fulfillments) made within a specified date range. Includes tracking numbers, package information (ship from and to addresses, weight, shipping / handles charges), and more."},{"name":"Shipment Details","fileName":"shipments-detailed.sql","description":"Returns detailed shipment information based on date criteria. Includes the customer, sales order, customer po, the warehouse, that it shipped from, carrier / method, total weight, number of items shipped, tracking number(s), and the items / quantities that shipped."},{"name":"States","fileName":"states.sql","description":"A list of states that NetSuite supports."},{"name":"Support Cases - Closed - Summarized by Assignee","fileName":"support-cases-closed-summarized-assignee.sql","description":"Returns closed support cases summarized by the employee that they are assigned to."},{"name":"Support Cases - Open - Detailed","fileName":"support-cases-open-detailed.sql","description":"Returns details about open support cases."},{"name":"Support Cases - Open - Summarized by Assignee","fileName":"support-cases-open-summarized-assignee.sql","description":"Returns open support cases summarized by the employee that they are assigned to."},{"name":"Support Cases - Open - Summarized by Status","fileName":"support-cases-open-summarized-status.sql","description":"Returns open support cases summarized by status."},{"name":"Transaction Line Usage","fileName":"transaction-line-usage.sql","description":"Returns the number of Transaction Lines generated in the last 6 months, grouped by transaction type."},{"name":"Transaction Counts - By Type and Status","fileName":"transaction-counts-by-type-status.sql","description":"Returns the total number of transactions in each type / status combination."},{"name":"Transactions - GL Impact","fileName":"transaction-gl-impact.sql","description":"Get the GL impact for a specified transaction."},{"name":"Transactions - GL Impact - Revisited","fileName":"transaction-gl-impact-revisited.sql","description":"Get the GL impact for a specified transaction."},{"name":"Transactions - Statuses","fileName":"transaction-statuses.sql","description":"Lists status codes for all transaction types."}]
+[
+
+
+  {
+    "name": "Account Subsidiary Map",
+    "fileName": "account-subsidiary-map.sql",
+	"description": "A list of general ledger accounts and the subsidiaries that they are mapped to."
+  },
+  {
+    "name": "Accounting Periods",
+    "fileName": "accounting-periods.sql",
+	"description": "Basic information about accounting periods."
+  },
+  {
+    "name": "Assembly Item With Components",
+    "fileName": "assembly-items-with-components.sql",
+	"description": "Returns an Assembly Item and its components."
+  },
+  {
+    "name": "Bins - Empty",
+    "fileName": "bins-empty.sql",
+	"description": "A list of empty warehouse bins."
+  },
+  {
+    "name": "BUILTIN.RELATIVE_RANGES Examples",
+    "fileName": "builtin-relative-ranges.sql",
+	"description": "Returns the start and end values for all relative date ranges that the BUILTIN.RELATIVE_RANGES function currently supports."
+  },
+  {
+    "name": "Company Features",
+    "fileName": "company-features.sql",
+	"description": "A list of NetSuite features that are avaialble and/or enabled in the account."
+  },
+  {
+    "name": "Countries",
+    "fileName": "countries.sql",
+	"description": "A list of countries that NetSuite supports."
+  },
+  {
+    "name": "Currencies",
+    "fileName": "currencies.sql",
+	"description": "A list of currencies, with symbols, latest exchange rates, etc."	
+  },
+  {
+    "name": "Currency Rates",
+    "fileName": "currency-rates.sql",
+	"description": "Historical currency exchange rates."	
+  },
+  {
+    "name": "Custom Fields",
+    "fileName": "custom-fields.sql",
+	"description": "Lists all custom fields in the account."	
+  },
+  {
+    "name": "Custom Lists",
+    "fileName": "custom-lists.sql",
+	"description": "Lists all custom lists in the account."	
+  },
+  {
+    "name": "Custom Record Types",
+    "fileName": "custom-record-types.sql",
+	"description": "Lists all custom record types in the account."	
+  },
+  {
+    "name": "Custom Segments",
+    "fileName": "custom-segments.sql",
+	"description": "Lists all custom segments, including the names of the tables in which the segment values are stored."	
+  },
+  {
+    "name": "Customer Invoices - By Date Range",
+    "fileName": "customer-invoices.sql",
+	"description": "Returns all customer (accounts receivable) invoices for a given date range, with totals and statuses."	
+  },
+  {
+    "name": "Customers - With Overdue Balances",
+    "fileName": "customers-with-overdue-balances.sql",
+	"description": "Returns customers that have overdue balances."	
+  },
+  {
+    "name": "Dates and Time - Creation Examples",
+    "fileName": "date-time-creation-examples.sql",
+	"description": "Shows how you can create dates and timestamps based on strings."	
+  },
+  {
+    "name": "Dates and Time - Format Models",
+    "fileName": "date-format-models.sql",
+	"description": "Examples of datetime format elements."	
+  },
+  {
+    "name": "Deleted Records",
+    "fileName": "deleted-records.sql",
+	"description": "Returns information about records that have been deleted."	
+  },
+  {
+    "name": "Employees - Emergency Contacts",
+    "fileName": "employees-emergency-contacts.sql",
+	"description": "Emergency contact information for employees."
+  },
+  {
+    "name": "Employees - Last Logins",
+    "fileName": "employees-last-logins.sql",
+	"description": "Lists all employees that have NetSuite access, and the date/time that they last logged in."
+  },
+  {
+    "name": "Employees - No Recent Logins",
+    "fileName": "employees-no-recent-logins.sql",
+	"description": "Employees that have not logged in recently."
+  },
+  {
+    "name": "Employees - Roles and Permissions",
+    "fileName": "employees-roles-permissions.sql",
+	"description": "Lists all employees, their assigned roles, and the permissions granted."
+  },
+  {
+    "name": "Employees - With Edit, View, Email URLs",
+    "fileName": "employees-with-edit-view-email-urls.sql",
+	"description": "Lists all employees, with edit, view, and email URLs in the results."
+  },
+  {
+    "name": "Entities - Types",
+    "fileName": "entity-types.sql",
+	"description": "Lists all entity types, with BUILTIN.DF and BUILTIN.CF values."
+  },
+  {
+    "name": "File Cabinet - Top Level Folders",
+    "fileName": "file-cabinet-top-level-folders.sql",
+	"description": "Returns a list of folders in the root of the File Cabinet."
+  },
+  {
+    "name": "General Ledger Impact by Transaction Type",
+    "fileName": "general-ledger-impact-by-transaction-type.sql",
+	"description": "Lists all transaction types and the general ledger accounts that they post to."
+  },
+  {
+    "name": "Hello World",
+    "fileName": "hello-world.sql",
+	"description": "An obligatory \"Hello World\" query in SuiteQL fashion."
+  },
+  {
+    "name": "Item Fulfillments - for Specified Sales Order",
+    "fileName": "item-fulfillments-for-sales-order.sql",
+	"description": "Lists all item fulfillments for a specified Sales Order ID."
+  },
+  {
+    "name": "Items - Item Group Members",
+    "fileName": "item-group-members.sql",
+	"description": "Lists members of an Item Group, including their list prices."
+  },
+  {
+    "name": "Items - In Alternate Warehouse Bins",
+    "fileName": "items-in-alternate-bins.sql",
+	"description": "Lists items that are in stock and stored in bins that are not the item's primary bin."
+  },
+  {
+    "name": "Items - Inventory Analysis",
+    "fileName": "items-inventory-analysis.sql",
+	"description": "Designed for inventory analysis, this query returns active items, various quantities (on hand, committed, available, reorder point, preferred stock level), the preferred vendor, the average resale price and purchase cost, quantities sold (in the last 30 days, 90 days, year, and lifetime), and more."
+  },
+  {
+    "name": "Items - Expired or Expiring Soon",
+    "fileName": "items-expired-or-expiring-soon.sql",
+	"description": "Returns items that have expired, or are about to expire within a certain number of days."
+  },
+  {
+    "name": "Items - Summarized by Type",
+    "fileName": "item-type-summary.sql",
+	"description": "Lists the number of active items group by item type."
+  },
+  {
+    "name": "Items - With Expiration Dates",
+    "fileName": "items-with-expiration-dates.sql",
+	"description": "Lists items that have expiration dates."
+  },
+  {
+    "name": "Items - Without Preferred Bins",
+    "fileName": "items-without-preferred-bins.sql",
+	"description": "Lists items that do not have a preferred bin."
+  },
+  {
+    "name": "Journal Entries - In Date Range",
+    "fileName": "journal-entries-in-date-range.sql",
+	"description": "Returns journal entry transactions in a given date range."
+  },
+  {
+    "name": "Leads - For A Specific Sales Rep",
+    "fileName": "leads-for-salesrep.sql",
+	"description": "Provides leads assigned to a specified sales rep."
+  },
+  {
+    "name": "Leads - Summarized by Sales Rep",
+    "fileName": "leads-salesrep-summarized.sql",
+	"description": "Provides a summarized list of sales reps and the number of leads that they've been assigned."
+  },
+  {
+    "name": "Pagination and Record Count Example",
+    "fileName": "pagination-recordcount-example.sql",
+	"description": "Returns paginated results that includes the total number of rows found."
+  },
+  {
+    "name": "Purchase Orders - Summarized by Status",
+    "fileName": "purchase-orders-summarized-status.sql",
+	"description": "Returns the various statuses of purchase orders, with the number of orders in each status, and the total amounts."
+  },
+  {
+    "name": "Purchase Orders - Item Receipts",
+    "fileName": "purchase-orders-item-receipts.sql",
+	"description": "Returns items that have been received against POs in a given date range."
+  },
+  {
+    "name": "Returns Authorizations - In Date Range",
+    "fileName": "rmas-in-date-range.sql",
+	"description": "A list of Return Authorizations (RAs / RMAs) that have been issued in a specified date range."
+  },
+  {
+    "name": "Returns Authorizations - Summarized by Customer",
+    "fileName": "rmas-summarized-customer.sql",
+	"description": "A list of Return Authorizations (RAs / RMAs) that have been issued in a specified date range, summarized by customer."
+  },
+  {
+    "name": "Returns Authorizations - Summarized by Item",
+    "fileName": "rmas-summarized-item.sql",
+	"description": "A list of Return Authorizations (RAs / RMAs) that have been issued in a specified date range, summarized by item."
+  },
+  {
+    "name": "Roles - Active Roles Not Used Recently",
+    "fileName": "roles-active-roles-not-used-recently.sql",
+	"description": "Returns the active roles that haven't been used in the past 90 days."
+  },
+  {
+    "name": "Roles - Active Roles And The Date Last Used",
+    "fileName": "roles-active-roles-with-date-last-used.sql",
+	"description": "Returns all active roles, and includes the date that each role was most recently used."
+  },
+  {
+    "name": "ROLLUP - Oracle Command Example",
+    "fileName": "rollup-example.sql",
+	"description": "Used to append a summary row to the result set."
+  },
+  {
+    "name": "Sales Order - With Sales Tax",
+    "fileName": "sales-order-with-sales-tax.sql",
+	"description": "Returns header-level values for a specified Sales Order, including the Tax Total value sourced from the related TransactionLine records."
+  },
+  {
+    "name": "Sales Orders - Summarized by Status",
+    "fileName": "sales-orders-summarized-status.sql",
+	"description": "Returns the various statuses of sales orders, with the number of orders in each status, and the total amounts."
+  },
+  {
+    "name": "Shipments",
+    "fileName": "shipments.sql",
+	"description": "Returns all shipments (item fulfillments) made within a specified date range. Includes tracking numbers, package information (ship from and to addresses, weight, shipping / handles charges), and more."
+  },
+  {
+    "name": "Shipment Details",
+    "fileName": "shipments-detailed.sql",
+	"description": "Returns detailed shipment information based on date criteria. Includes the customer, sales order, customer po, the warehouse, that it shipped from, carrier / method, total weight, number of items shipped, tracking number(s), and the items / quantities that shipped."
+  },
+  {
+    "name": "States",
+    "fileName": "states.sql",
+	"description": "A list of states that NetSuite supports."
+  },
+  {
+    "name": "Support Cases - Closed - Summarized by Assignee",
+    "fileName": "support-cases-closed-summarized-assignee.sql",
+	"description": "Returns closed support cases summarized by the employee that they are assigned to."
+  },
+  {
+    "name": "Support Cases - Open - Detailed",
+    "fileName": "support-cases-open-detailed.sql",
+	"description": "Returns details about open support cases."
+  },
+  {
+    "name": "Support Cases - Open - Summarized by Assignee",
+    "fileName": "support-cases-open-summarized-assignee.sql",
+	"description": "Returns open support cases summarized by the employee that they are assigned to."
+  },
+  {
+    "name": "Support Cases - Open - Summarized by Status",
+    "fileName": "support-cases-open-summarized-status.sql",
+	"description": "Returns open support cases summarized by status."
+  },
+  {
+    "name": "Transaction Line Usage",
+    "fileName": "transaction-line-usage.sql",
+	"description": "Returns the number of Transaction Lines generated in the last 6 months, grouped by transaction type."
+  },
+  {
+    "name": "Transaction Counts - By Type and Status",
+    "fileName": "transaction-counts-by-type-status.sql",
+	"description": "Returns the total number of transactions in each type / status combination."
+  },
+  {
+    "name": "Transactions - GL Impact",
+    "fileName": "transaction-gl-impact.sql",
+	"description": "Get the GL impact for a specified transaction."
+  },
+  {
+    "name": "Transactions - GL Impact - Revisited",
+    "fileName": "transaction-gl-impact-revisited.sql",
+	"description": "Get the GL impact for a specified transaction."
+  },
+  {
+    "name": "Transactions - Statuses",
+    "fileName": "transaction-statuses.sql",
+	"description": "Lists status codes for all transaction types."
+  }
+]
