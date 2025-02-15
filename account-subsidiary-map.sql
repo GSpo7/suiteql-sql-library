@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-accounts-by-subsidiary/
+-- Contributor: Ghanny.A
 SELECT
 	Account,
 	BUILTIN.DF( Account ) AS AccountName,
