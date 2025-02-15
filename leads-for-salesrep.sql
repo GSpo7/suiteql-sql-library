@@ -1,4 +1,4 @@
--- Source: https://timdietrich.me/blog/netsuite-suiteql-leads/
+-- Contributor: Ghanny.A
 SELECT 
 	Customer.ID AS CustomerID, 
 	Customer.CompanyName,
