@@ -1,4 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
+-- Contributor: Ghanny.A
 SELECT
 	Transaction.TranDate AS Date,
 	BUILTIN.DF( Transaction.Entity ) AS CustomerName,
