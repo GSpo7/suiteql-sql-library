@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-inventory-analysis/
+-- Contributor: Ghanny.A
 SELECT
 	Item.ItemID,
 	BUILTIN.DF( Item.Parent ) AS ParentItem,
