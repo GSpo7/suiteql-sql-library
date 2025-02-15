@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-currency-exchange-rates/
+-- Contributor: Ghanny.A
 SELECT
 	Symbol,
 	Name,
