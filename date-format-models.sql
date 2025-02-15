@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-dates-times/
+-- Contributor: Ghanny.A
 SELECT
 	TO_CHAR ( SYSDATE, 'DS TS' ) AS CurrentTimeServer,
 	TO_CHAR ( CURRENT_DATE, 'DS TS' ) AS CurrentTimeUser,
