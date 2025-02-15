@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-purchase-order-item-receipts/
+-- Contributor: Ghanny.A
 SELECT
 	Transaction.TranDate AS DateReceived,	
 	BUILTIN.DF( Transaction.Entity ) AS Supplier,	
