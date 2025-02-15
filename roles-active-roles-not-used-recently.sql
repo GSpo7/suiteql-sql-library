@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-roles-not-used/
+-- Contributor: Ghanny.A
 SELECT
 	Role.ID,
 	Role.Name,
