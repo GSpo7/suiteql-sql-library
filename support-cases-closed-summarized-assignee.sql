@@ -1,5 +1,4 @@
--- Contributor: Tim Dietrich (timdietrich@me.com)
--- Additional Info: https://timdietrich.me/blog/netsuite-suiteql-support-cases/
+-- Contributor: Ghanny.A
 SELECT
 	BUILTIN.DF( Assigned ) AS AssignedTo,
 	COUNT(*) AS ClosedCaseCount,
