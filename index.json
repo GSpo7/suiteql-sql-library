@@ -1,7 +1,11 @@
 [
 
 
-  
+  {
+    "name": "Account Subsidiary Map",
+    "fileName": "account-subsidiary-map.sql",
+	"description": "A list of general ledger accounts and the subsidiaries that they are mapped to."
+  },
   {
     "name": "Accounting Periods",
     "fileName": "accounting-periods.sql",
