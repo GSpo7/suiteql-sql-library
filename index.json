@@ -247,6 +247,11 @@
 	"description": "Returns the various statuses of sales orders, with the number of orders in each status, and the total amounts."
   },
   {
+    "name": "Serial Number Aging",
+    "fileName": "Serial Number Aging.sql",
+	"description": "Returns the serial number aging for an item receipt date."
+  },
+  {
     "name": "Shipments",
     "fileName": "shipments.sql",
 	"description": "Returns all shipments (item fulfillments) made within a specified date range. Includes tracking numbers, package information (ship from and to addresses, weight, shipping / handles charges), and more."
