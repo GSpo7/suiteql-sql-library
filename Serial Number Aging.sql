@@ -70,7 +70,7 @@ SELECT
         FROM (
             SELECT 
                 as1d.last_receipt_id AS receipt_id,
-                '<a href="https://5504968-sb1.app.netsuite.com/app/accounting/transactions/itemrcpt.nl?id=' || as1d.last_receipt_id || '">' || as1d.last_receipt_number || '</a>' AS link,
+                '<a href="/app/accounting/transactions/itemrcpt.nl?id=' || as1d.last_receipt_id || '">' || as1d.last_receipt_number || '</a>' AS link,
                 LISTAGG(as1d.InventoryNumber, ', ') WITHIN GROUP (ORDER BY as1d.InventoryNumber) AS serials,
                 COUNT(as1d.InventoryNumber) AS serial_count
             FROM AgedSerials as1d
@@ -93,7 +93,7 @@ SELECT
         FROM (
             SELECT 
                 as3.last_receipt_id AS receipt_id,
-                '<a href="https://5504968-sb1.app.netsuite.com/app/accounting/transactions/itemrcpt.nl?id=' || as3.last_receipt_id || '">' || as3.last_receipt_number || '</a>' AS link,
+                '<a href="/app/accounting/transactions/itemrcpt.nl?id=' || as3.last_receipt_id || '">' || as3.last_receipt_number || '</a>' AS link,
                 LISTAGG(as3.InventoryNumber, ', ') WITHIN GROUP (ORDER BY as3.InventoryNumber) AS serials,
                 COUNT(as3.InventoryNumber) AS serial_count
             FROM AgedSerials as3
@@ -116,7 +116,7 @@ SELECT
         FROM (
             SELECT 
                 as6.last_receipt_id AS receipt_id,
-                '<a href="https://5504968-sb1.app.netsuite.com/app/accounting/transactions/itemrcpt.nl?id=' || as6.last_receipt_id || '">' || as6.last_receipt_number || '</a>' AS link,
+                '<a href="/app/accounting/transactions/itemrcpt.nl?id=' || as6.last_receipt_id || '">' || as6.last_receipt_number || '</a>' AS link,
                 LISTAGG(as6.InventoryNumber, ', ') WITHIN GROUP (ORDER BY as6.InventoryNumber) AS serials,
                 COUNT(as6.InventoryNumber) AS serial_count
             FROM AgedSerials as6
@@ -139,7 +139,7 @@ SELECT
         FROM (
             SELECT 
                 as12.last_receipt_id AS receipt_id,
-                '<a href="https://5504968-sb1.app.netsuite.com/app/accounting/transactions/itemrcpt.nl?id=' || as12.last_receipt_id || '">' || as12.last_receipt_number || '</a>' AS link,
+                '<a href="/app/accounting/transactions/itemrcpt.nl?id=' || as12.last_receipt_id || '">' || as12.last_receipt_number || '</a>' AS link,
                 LISTAGG(as12.InventoryNumber, ', ') WITHIN GROUP (ORDER BY as12.InventoryNumber) AS serials,
                 COUNT(as12.InventoryNumber) AS serial_count
             FROM AgedSerials as12
